@@ -15,4 +15,4 @@
   - Publishers - Издательства
 ## 2. Спроектировать базу данных:
 1. **Концептуальная модель:** все сущности из п.1 с указанием связей в нотации «воронья лапка».
-![conceptual model]https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/conceptual.png
+![]https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/conceptual.png
