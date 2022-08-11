@@ -215,8 +215,40 @@
 **Проверка:**  
 Таблица *books* изначально:  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/9-1-3.png)  
-Вставка в таблицу *issues*:
+Вставка в таблицу *issues*:  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/9-1-4.png)  
-Таблица *books* после вставки:
+Таблица *books* после вставки:  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/9-1-5.png)  
-**Вывод:** Количество оставшихся книг *book_id = 9* изменился - на единицу меньше, значит триггер сработал.
+**Вывод:** Количество оставшихся книг *book_id = 9* изменился - на единицу меньше, значит триггер сработал.  
+**Триггер 2:**  
+Создать функцию *update_return_book()* для вставки данных в таблицу *fines*.  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/9-2-1.png)  
+Создать триггер для выполнения функции *update_return_book()* после обновления или вставки в таблицу *issues*:  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/9-2-2.png)  
+Создать триггер для выполнения функции *update_return_book()* перед удалением данных из таблицы *issues*.  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/9-2-3.png)  
+**Проверка:**  
+Таблица *fines* перед обновлением:  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/9-2-4.png)  
+Обновление в таблице *issues*:  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/9-2-5.png)  
+Таблица *fines* после обновления: 
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/9-2-6.png)  
+**Вывод:** Новая запись была добавлена в таблицу fines, значит триггер сработал.  
+Удаление записи из таблицы *issues*:  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/9-2-7.png)  
+Таблица *fines* после удаления:  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/9-2-8.png)  
+**Вывод:** Лишняя запись была удалена из таблицы fines, значит триггер сработал.  
+
+
+## Окончательные выводы:
+Нормальные формы и SCD действительно улучшает производительность и  удобства управления данными. Диаграмма ER хорошо иллюстрирует логическую структуру баз данных. При выполнении проекта возникли проблемы со сложности взаимосвязи между таблицами. Допустим, при изменении одной записи нужно было обновлять другие таблицы тоже. Стоит отметить, что база данных для библиотеки имеет сложную структуру. Но самое главное, Я получил много удовольствий, и много полезных знаний.
+
+## Ресурсы:
+- https://app.diagrams.net/ - сайт для рисования таблиц
+- https://www.postgresql.org/docs/ - Документация PostgreSQL
+- https://www.postgresqltutorial.com/ - PostgreSQL Tutorial
+- [Лекции по курсу "База данных" МФТИ](https://drive.google.com/drive/folders/174_vQYw2NZNfLc8f4flr-kc3T5EMyQlc)
+
+
