@@ -100,8 +100,8 @@
 - **procedure.sql** - хранимые процедуры
 - **trigger.sql** - триггеры
 
-Я реализовал проект в порядке следующих шагов:
-**1. Создать схему:**
+Я реализовал проект в порядке следующих шагов:  
+**1. Создать схему:**  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/1-1.png)
-**Результат:**
+**Результат:**  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/1-2.png)
