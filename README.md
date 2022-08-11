@@ -115,15 +115,15 @@
 **Результат:**  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/3-2.png)  
 **4. Написать несколько INSERT, SELECT, UPDATE, DELETE запросов:**  
-*Запрос 1:* Вставка в таблицу issues.  
+**Запрос 1:** Вставка в таблицу issues.  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/4-1-1.png)  
 **Результат:**  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/4-1-2.png)  
-**Запрос 2:* Вставка в таблицу fines.  
+**Запрос 2:** Вставка в таблицу fines.  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/4-2-1.png)  
 **Результат:**  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/4-2-2.png)  
-**Запрос 3:* Вставка в таблицу categories.  
+**Запрос 3:** Вставка в таблицу categories.  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/4-3-1.png)  
 **Результат:**  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/4-3-2.png)  
