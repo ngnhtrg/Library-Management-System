@@ -102,6 +102,6 @@
 
 Я реализовал проект в порядке следующих шагов:  
 **1. Создать схему:**  
-![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/1-1.png)
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/1-1.png)  
 **Результат:**  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/1-2.png)
