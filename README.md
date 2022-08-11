@@ -109,4 +109,8 @@
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/2-1.png)  
 **Результат:**  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/2-2.png)  
-*Аналогично для остальных таблиц.*
+*Аналогично для остальных таблиц.*  
+**3. Наполнить созданную базу данными, \~10 записей в каждой таблице:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/3-1.png)  
+**Результат:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/3-2.png)  
