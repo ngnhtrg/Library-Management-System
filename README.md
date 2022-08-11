@@ -232,7 +232,7 @@
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/9-2-4.png)  
 Обновление в таблице *issues*:  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/9-2-5.png)  
-Таблица *fines* после обновления: 
+Таблица *fines* после обновления:  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/9-2-6.png)  
 **Вывод:** Новая запись была добавлена в таблицу fines, значит триггер сработал.  
 Удаление записи из таблицы *issues*:  
