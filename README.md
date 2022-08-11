@@ -206,3 +206,17 @@
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/8-2-2.png)  
 **Результат:**  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/8-1-3.png)  
+**9. Создать триггеры:**  
+**Триггер 1:**  
+Создать функцию update_insert_issue() для обновления количества оставшихся книг в таблице books.  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/9-1-1.png)  
+Создать триггер для вызова функции update_insert_issue() при изменении таблицы issues.  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/9-1-2.png)  
+**Проверка:**  
+Таблица *books* изначально:  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/9-1-3.png)  
+Вставка в таблицу *issues*:
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/9-1-4.png)  
+Таблица *books* после вставки:
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/9-1-5.png)  
+**Вывод:** Количество оставшихся книг *book_id = 9* изменился - на единицу меньше, значит триггер сработал.
