@@ -166,3 +166,28 @@
 **6. Создать индексы для таблиц:**  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/6.png)  
 Так как book_id связана со многими сущностями, то для ускорения взаимодействия, Я выбрал это поле.  
+**7. Создать представления:**  
+**Представление 1 - v_reader:** получается скрытием номера телефона читателей.  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/7-1-1.png)  
+**Результат:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/7-1-2.png)  
+**Представление 2 - v_publisher:**  получается скрытием номера телефона издателей.  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/7-2-1.png)  
+**Результат:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/7-2-2.png)  
+**Представление 3 - v_reader_issue:** Список всех выдач каждого читателя.  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/7-3-1.png)  
+**Результат:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/7-3-2.png)  
+**Представление 4 - v_fines_info:** Таблица подробной информации о штрафах.
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/7-4-1.png)  
+**Результат:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/7-4-2.png)  
+**Представление 5 - v_publisher_cnt_books:** Статистика количества книг по издательствам.  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/7-5-1.png)  
+**Результат:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/7-5-2.png)  
+**Представление 6 - v_books_info:** Таблица подробной информации о книгах.
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/7-6-1.png)  
+**Результат:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/7-6-2.png)  
