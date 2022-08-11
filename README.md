@@ -138,3 +138,31 @@
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/4-678.png)  
 **Запрос 9, 10:** UPDATE.  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/4-910.png)  
+**5. Написать осмысленные SELECT-запросы:**  
+**Запрос 1:** Найти всех издателей, у которых есть более 1 книги в базе данных.  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/5-1-1.png)  
+**Результат:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/5-1-2.png)  
+**Запрос 2:** Использовать функцию rank(), чтобы присвоить каждой книге рейтинг по количеству копий.  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/5-2-1.png)  
+**Результат:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/5-2-2.png)  
+**Запрос 3:** Найти количество взятых книг по категориям.  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/5-3-1.png)  
+**Результат:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/5-3-2.png)  
+**Запрос 4:** Рассчитать общую сумму штрафа для каждого читателя.  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/5-4-1.png)  
+**Результат:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/5-4-2.png)  
+**Запрос 5:** Использовать функцию dense_rank(), чтобы присвоить ранг каждому издателю по количеству его книг в базе данных.  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/5-5-1.png)  
+**Результат:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/5-5-2.png)  
+**Запрос 5:** Ранжирование любимой категории для каждого читателя.  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/5-6-1.png)  
+**Результат:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/5-6-2.png)  
+**6. Создать индексы для таблиц:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/6.png)  
+Так как book_id связана со многими сущностями, то для ускорения взаимодействия, Я выбрал это поле.  
