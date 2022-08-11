@@ -16,7 +16,7 @@
 - Publishers - Издательства
 ### 2. Спроектировать базу данных:
 **1. Концептуальная модель:** все сущности из п.1 с указанием связей в нотации «воронья лапка».
-![alt text](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/conceptual.png)
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/conceptual.png)
 
 **2. Логическая модель:** описание таблиц и их атрибутивного состава, а также указание связей в нотации «воронья лапка». БД должна находиться во 2НФ или в 3НФ (аргументировать свой выбор). После нормализации ~ 8-10 сущностей. Для описания использовать ER-диаграмму. Хотя бы одну таблицу необходимо сделать версионной. На выбор представляются SCD типа 2 и 4.
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/logic.png)
@@ -51,3 +51,57 @@
 | borrowed_from_dt     | Дата получения       | DATE                 | NOT NULL             |
 | borrowed_to_dt       | Дата сдачи           | DATE                 | NOT NULL             |
 | actual_return_dt     | Дата возрата         | DATE                 | NOT NULL             |
+
+
+**fines**
+| Название             | Описание             | Тип данных           | Ограничение          |
+| :------------------- | :------------------- | :------------------- | :------------------- |
+| fine_id              | Идентификатор        | INTEGER              | PRIMARY KEY          |
+| issue_id             | Идентификатор        | INTEGER              | FOREIGN KEY          |
+| fine_dt              | Дата штрафа          | DATE                 | NOT NULL             |
+| fine_amt             | Сумма штрафа         | INTEGER              | NOT NULL             |
+
+**publishers**
+| Название             | Описание             | Тип данных           | Ограничение          |
+| :------------------- | :------------------- | :------------------- | :------------------- |
+| publisher_id         | Идентификатор        | INTEGER              | PRIMARY KEY          |
+| publisher_nm         | Название издательство| VARCHAR(128)         | NOT NULL             |
+| phone_no             | Номер телефона       | VARCHAR(128)         | NOT NULL             |
+| address_txt          | Адресс               | VARCHAR(128)         | NOT NULL             |
+
+**authors**
+| Название             | Описание             | Тип данных           | Ограничение          |
+| :------------------- | :------------------- | :------------------- | :------------------- |
+| author_id            | Идентификатор        | INTEGER              | PRIMARY KEY          |
+| author_nm            | Имя автора           | VARCHAR(128)         | NOT NULL             |
+
+**book_author**
+| Название             | Описание             | Тип данных           | Ограничение          |
+| :------------------- | :------------------- | :------------------- | :------------------- |
+| book_id              | Идентификатор книги  | INTEGER              | FOREIGN KEY          |
+| author_id            | Идентификатор автора | INTEGER              | FOREIGN KEY          |
+
+**book_category**
+| Название             | Описание             | Тип данных           | Ограничение          |
+| :------------------- | :------------------- | :------------------- | :------------------- |
+| book_id              | Идентификатор книги  | INTEGER              | FOREIGN KEY          |
+| category_id          | Идентификатор категории | INTEGER           | FOREIGN KEY          |
+
+### 3. Практическая часть:
+
+Код моего проекта разделен на 8 файлов:
+
+- **ddl.sql** - создание таблицы
+- **insert.sql** - вставка таблицы
+- **crud.sql** - несложные crud запросы
+- **queries.sql** - сложные и интересные запросы к базу данных
+- **index.sql** - индексы для таблиц
+- **view.sql** - рабочие представления 
+- **procedure.sql** - хранимые процедуры
+- **trigger.sql** - триггеры
+
+Я реализовал проект в порядке следующих шагов:
+**1. Создать схему:**
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/1-1.png)
+**Результат:**
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/1-2.png)
