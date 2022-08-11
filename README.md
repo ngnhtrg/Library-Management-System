@@ -191,3 +191,18 @@
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/7-6-1.png)  
 **Результат:**  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/7-6-2.png)  
+**8. Создать хранимые процедуры:**  
+**Процедура 1:** Вставка данных в таблицу readers.  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/8-1-1.png)  
+**Вызов процедуры:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/8-1-2.png)  
+**Проверка:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/8-1-3.png)  
+**Результат:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/8-1-4.png)  
+**Процедура 2:** Уведомляет сообщение на экране.  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/8-2-1.png)  
+**Вызов процедуры:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/8-2-2.png)  
+**Результат:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/8-1-3.png)  
