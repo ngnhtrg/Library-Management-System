@@ -104,4 +104,9 @@
 **1. Создать схему:**  
 ![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/1-1.png)  
 **Результат:**  
-![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/1-2.png)
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/1-2.png)  
+**2. Создать таблицы соответственно физической модели:**
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/2-1.png)  
+**Результат:**  
+![](https://github.com/ngnhtrg/Library-Management-System/blob/master/pics/2-2.png)  
+*Аналогично для остальных таблиц.*
